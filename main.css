@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-weight: 500;
+    font-family:Ubuntu;
+}
+p{
+    font-size:1em;
+}
+img{
+    width:15em;
+    height:auto;
+    border-radius:10px;
+    transition: all 0.1s cubic-bezier(0.77, 0, 1, 1);
+}
+
+img:hover{
+    width:16em;
+    height:auto;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family:Ubuntu;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2vh;
+}
+
+fieldset{
+    border-color:#0CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:20%;
+    border-radius:10px;
+    font-family:Ubuntu;
+    font-weight: 500;
+    background-color:#f2f2f2;
+}
+
+legend{
+    font-weight:600;
+}
+
+.image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+input{
+    margin-bottom:1.2vh;
+}
+
+.zonetxt{
+    border-radius:5px;
+    transition:background-color 1s;
+    transition:border 1s;
+    background-color:#aeeaf9;
+    border:1px solid #0CF;
+    margin:1vh;
+}
+
+.zonetxt:active{
+    transition:background-color 1s;
+    transition:border 1s;
+    background-color:#9fecff;
+    border:none;
+    border-color:#9fecff;
+}
+
+.titre{
+    font-size:1.5em;
+    font-weight:600;
+}
+
+.description{
+    color:#5e5c5c;
+    text-transform: capitalize;
+}
+
+.formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Ubuntu;
+    margin:2vh !important;
+}
+
+.bouton{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+	width:9vh;
+	height:5vh;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:1vh;
+	font-size:1em;
+	padding:1vh;
+	border-radius:4px;
+	font-family:Ubuntu;
+	text-decoration:none;
+	transition: all 0.1s ease-out;
+}
+
+.bouton:hover{
+    background-color:rgb(0, 119, 255);
+	border:none;
+	background:#00beed;
+	color:#FFF;
+	font-size:1em;
+	padding:0.5vh;
+	border-radius:5px;
+	font-family:Ubuntu;
+	text-decoration:none;
+	border-radius:8px;
+	transition: all 0.1s ease-out;
+}
+
+.bouton2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    margin:1vh;
+}
+
+.radio{
+    cursor:pointer;
+}
+.sheee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
